@@ -1,0 +1,41 @@
+h1 {
+font-size: 2em
+}
+
+
+
+body {
+	width: 50%;
+	margin: auto;
+	font-family:'Times New Roman', Times, serif
+}
+
+#content {
+	Border: solid 2px red;
+}
+
+#imagecaption {
+	font-size: 12px;
+}
+
+#story {
+	font-size: 18px;
+	line-height: 1em;
+}
+
+/* .story {
+	/* ths is where paragraphs are styled */
+/* color: pink; */
+/*}
+
+
+/* run media query, check user orientation: portrait=phone; overrides and uses these rules */
+
+@media (orientation: portrait) {
+	#content {
+		Width: 100%;
+	}
+	Body {
+		Font-size: 2em;
+	}
+}
