@@ -1,19 +1,23 @@
+/* make header large text */
 h1 {
 font-size: 2em
 }
 
 
-
+/* set style standard for entire story */
 body {
 	width: 50%;
+	/* make sure text is horizontally centered*/
 	margin: auto;
 	font-family:'Times New Roman', Times, serif
 }
 
+/* put text inside red container box */
 #content {
 	Border: solid 2px red;
 }
 
+/* make image caption text size small */
 #imagecaption {
 	font-size: 12px;
 }
@@ -23,14 +27,8 @@ body {
 	line-height: 1em;
 }
 
-/* .story {
-	/* ths is where paragraphs are styled */
-/* color: pink; */
-/*}
-
-
-/* run media query, check user orientation: portrait=phone; overrides and uses these rules */
-
+/* run media query to check user orientation */
+/* if user is in portrait mode (using a phone), override the orginal styling to adjust the story and image size */
 @media (orientation: portrait) {
 	#content {
 		Width: 100%;
